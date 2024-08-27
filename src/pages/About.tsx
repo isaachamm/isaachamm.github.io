@@ -1,5 +1,4 @@
 import { Link } from 'wouter';
-import selfPortrait from '../assets/self.jpeg';
 import selfPortrait1 from '../assets/IMG_2431-1.jpg';
 import selfPortrait2 from '../assets/ihammProfile.jpg';
 import gradPortraitBYU from '../assets/grad.jpg'

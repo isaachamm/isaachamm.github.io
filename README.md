@@ -1,2 +1,4 @@
-# Technologies used for landing site:
+# isaachamm.github.io
+
+## Technologies used for landing site:
 - wouter
