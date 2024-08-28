@@ -1,6 +1,13 @@
 import reactLogo from '../assets/react.svg';
 import viteLogo from '/vite.svg';
 import selfPortrait from '../assets/self.jpeg';
+import firebaseLogo from '../assets/firebase.png';
+import pythonLogo from '../assets/python-logo.svg';
+import mssqlLogo from '../assets/mssql-server.svg';
+import cSharpLogo from '../assets/c-sharp-logo.svg';
+import tsLogo from '../assets/ts-logo-128.svg';
+import nodeLogo from '../assets/nodejs-logo.svg'
+import './Home.css';
 
 export default function Home() {
 
@@ -35,101 +42,90 @@ export default function Home() {
 
 			<hr />
 
-			
-			<div>
-				<h1 className='w-fit ml-20'>Specialties</h1>
-				<div className=' grid grid-cols-3 mx-20'>
-					<div className=' border-white border-2 rounded-3xl m-8 flex flex-col justify-center'>
-						<h1>Frontend</h1>
-						<h2>Specialties:</h2>
-						<div className='flex justify-center align-middle'>
 
-							<a href="https://vitejs.dev" target="_blank">
-								<img src={viteLogo} className="logo" alt="Vite logo" />
-							</a>
-							<a href="https://react.dev" target="_blank">
-								<img src={reactLogo} className="logo react" alt="React logo" />
-							</a>
-						</div>
-						<p>Vite + React + Typescript + Node</p>
-						<h2>Experience with:</h2>
-						<p>Angular, Next, Vue, Astro, Bun</p>
-						<h2>Want to learn:</h2>
-						<p>Svelte, Ember</p>
+			<div className='w-[75%] grid grid-cols-3'>
+				<div className=' border-white border-2 rounded-3xl m-8 flex flex-col justify-center'>
+					<h1>Frontend</h1>
+					<h2>Specialties:</h2>
+					<div className='flex justify-center align-middle'>
+
+						<a href="https://vitejs.dev" target="_blank">
+							<img src={viteLogo} className="logo" alt="Vite logo" />
+						</a>
+						<a href="https://react.dev" target="_blank">
+							<img src={reactLogo} className="logo react" alt="React logo" />
+						</a>
+						<a href="https://www.typescriptlang.org/" target="_blank">
+							<img src={tsLogo} className="logo" alt="TypeScript logo" />
+						</a>
+						<a href="https://nodejs.org/en" target="_blank">
+							<img src={nodeLogo} className="logo" alt="Node.JS logo" />
+						</a>
+
 					</div>
+					<p>Vite + React + Typescript + Node</p>
+					<h2>Experience with:</h2>
+					<p>Angular, Next, Vue, Astro, Bun</p>
+					<h2>Want to learn:</h2>
+					<p>Svelte, Ember, Ruby on Rails</p>
+				</div>
 
-					<div className=' border-white border-2 rounded-3xl m-8 flex flex-col justify-center'>
-						<h1>Backend</h1>
-						<div className='flex justify-center align-middle'>
+				<div className=' border-white border-2 rounded-3xl m-8 flex flex-col justify-center'>
+					<h1>Backend</h1>
 
-							{/* <a href="https://vitejs.dev" target="_blank">
-								<img src={viteLogo} className="logo" alt="Vite logo" />
-							</a>
-							<a href="https://react.dev" target="_blank">
-								<img src={reactLogo} className="logo react" alt="React logo" />
-							</a> */}
-						</div>
-						<h2>.NET (C#) + Python</h2>
+					<h2>Specialties:</h2>
+					<div className='flex justify-center align-middle'>
+
+						<a href="https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/" target="_blank">
+							<img src={cSharpLogo} className="logo" alt="C Sharp logo" />
+						</a>
+						<a href="https://www.python.org/" target="_blank">
+							<img src={pythonLogo} className="logo" alt="Python logo" />
+						</a>
 					</div>
+					<p>.NET (C#) + Python</p>
+					<h2>Experience with:</h2>
+					<p>Java, C++, Flask, Express</p>
+					<h2>Want to learn:</h2>
+					<p>Rust, Ruby</p>
+				</div>
 
-					<div className=' border-white border-2 rounded-3xl m-8 flex flex-col justify-center'>
-						<h1>DB</h1>
-						<div className='flex justify-center align-middle'>
+				<div className=' border-white border-2 rounded-3xl m-8 flex flex-col justify-center'>
+					<h1>DB</h1>
 
-							{/* <a href="https://vitejs.dev" target="_blank">
-								<img src={viteLogo} className="logo" alt="Vite logo" />
-							</a>
-							<a href="https://react.dev" target="_blank">
-								<img src={reactLogo} className="logo react" alt="React logo" />
-							</a> */}
-						</div>
-						<h2>MSSQL + Firebase</h2>
+					<h2>Specialties:</h2>
+					<div className='flex justify-center align-middle'>
+
+						<a href="https://www.microsoft.com/en-us/sql-server/sql-server-downloads" target="_blank">
+							<img src={mssqlLogo} className="logo" alt="MSSQL logo" />
+						</a>
+						<a href="https://firebase.google.com/" target="_blank">
+							<img src={firebaseLogo} className="logo " alt="Firebase logo" />
+						</a>
 					</div>
+					<p>MSSQL + Firebase</p>
+					<h2>Experience with:</h2>
+					<p>MongoDB, GraphQL, Apollo</p>
+					<h2>Want to learn:</h2>
+					<p>PostgreSQL, Neo4j</p>
+				</div>
 
-					<div className=' border-white border-2 rounded-3xl m-8 flex flex-col justify-center'>
-						<h1>Code Tools</h1>
-						<div className='flex justify-center align-middle'>
+				<div className=' border-white border-2 rounded-3xl m-8 flex flex-col justify-center'>
+					<h2>Code Tools</h2>
 
-							{/* <a href="https://vitejs.dev" target="_blank">
-								<img src={viteLogo} className="logo" alt="Vite logo" />
-							</a>
-							<a href="https://react.dev" target="_blank">
-								<img src={reactLogo} className="logo react" alt="React logo" />
-							</a> */}
-						</div>
-						<h2>Git, Gitlab, Github</h2>
-					</div>
+					<p>Git, Gitlab, Github</p>
+				</div>
 
-					<div className=' border-white border-2 rounded-3xl m-8 flex flex-col justify-center'>
-						<h1>Design</h1>
-						<div className='flex justify-center align-middle'>
+				<div className=' border-white border-2 rounded-3xl m-8 flex flex-col justify-center'>
+					<h2>Design</h2>
 
-							{/* <a href="https://vitejs.dev" target="_blank">
-								<img src={viteLogo} className="logo" alt="Vite logo" />
-							</a>
-							<a href="https://react.dev" target="_blank">
-								<img src={reactLogo} className="logo react" alt="React logo" />
-							</a> */}
-						</div>
-						<h2>Figma + FlutterFlow</h2>
-					</div>
+					<p>Figma, FlutterFlow, SVGs</p>
+				</div>
 
-					<div className=' border-white border-2 rounded-3xl m-8 flex flex-col justify-center'>
-						<h1>PM</h1>
-						<div className='flex justify-center align-middle'>
+				<div className=' border-white border-2 rounded-3xl m-8 flex flex-col justify-center'>
+					<h2>PM</h2>
 
-							{/* <a href="https://vitejs.dev" target="_blank">
-								<img src={viteLogo} className="logo" alt="Vite logo" />
-							</a>
-							<a href="https://react.dev" target="_blank">
-								<img src={reactLogo} className="logo react" alt="React logo" />
-							</a> */}
-						</div>
-						<h2>Scrum, Agile, Waterfall, Lean, 
-							{/* Sigma Six? Toyota? Chain of management? */}
-							</h2>
-					</div>
-
+					<p>Scrum, Theory of Constraints</p>
 				</div>
 			</div>
 		</>
