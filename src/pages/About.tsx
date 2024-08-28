@@ -1,4 +1,3 @@
-import { Link } from 'wouter';
 import selfPortrait1 from '../assets/IMG_2431-1.jpg';
 import selfPortrait2 from '../assets/ihammProfile.jpg';
 import gradPortraitBYU from '../assets/grad.jpg'
@@ -8,20 +7,19 @@ export default function About() {
 	return (
 		<>
 
-				<h1 className='w-fit'>About</h1>
+			<h1 className='w-fit'>About Me</h1>
 			<div className='w-[70%] text-left px-20'>
 
 				<br />
 				<div className='min-w-96 text-left'>
-					<h2 className='w-fit'>About Me</h2>
-					<h3 className='w-fit'>Education</h3>
+					<h2 className='w-fit'>Education</h2>
 					<img src={selfPortrait1} alt="Self Portrait" width={352} height={235} className='float-right' />
 					<p>I graduated with a B.S. in Psychology with Honors (Summa Cum Laude) from BYU in May of 2023. While at BYU, I also received minors in Computer Science, English, and Professional Writing & Rhetoric, as well as a language certificate for Portuguese.</p>
 					<p>I was also an active community member at BYU, participating in the Phi Kappa Phi honor society, where I acted as the social media chair and as an advisor, and starting the BYU Sport Psychology Club, acting as co-founder and president.</p>
 					<p>Currently, I am attending UVU to complete a B.S. in Computer Science as well as other pre-requisites for a Master's program in either computer science or information systems.</p>
 
 
-					<h3 className='w-fit'>Work Experience</h3>
+					<h2 className='w-fit'>Work Experience</h2>
 					<p><strong>***Note***:</strong> a detailed summary of workplace experiences and associated accomplishments can be found on my <a href='https://www.linkedin.com/in/isaachamm/'>LinkedIn</a>; this section is meant to be more biographical in nature.</p>
 					<p>I have had a wide range of work experiences throughout my life, including starting my own tennis coaching business in my hometown during high school, and coaching tennis during college. I also worked for multiple years as a research assistant at BYU, where I participated in 4 different labs: an fMRI-focused lab, where we studied memory and decision-making; a clinical psychology lab, where we studied teletherapy and suicidality, among other clinical psychology phenomena; a health-psychology lab, where we studied health behaviors from a psychosocial perspective; and a human-computer interaction lab, where we studied individuals' experiences with UI/UX design from both a psychological and technological perspective. I also acted as a teaching assistant at BYU where I helped with the Cognition course for Neuroscience and Psychology majors.</p>
 					<img src={gradPortraitBYU} alt="Self Portrait"
@@ -41,7 +39,7 @@ export default function About() {
 					/>
 
 
-					<h3 className='w-fit'>Life/Hobbies</h3>
+					<h2 className='w-fit'>Life/Hobbies</h2>
 					<p>I grew up in a small town outside of Salt Lake City, Utah. Without much to do in our town, I became an avid sports fan, and reader. Most of my childhood consisted either of playing sports and being outside, or school and learning. </p>
 
 				</div>
@@ -55,23 +53,6 @@ export default function About() {
 					<p>I believe strongly that our greatest strength as coders is actually other humans—perhaps a blasphemy in the age of AI—nevertheless, I believe that the most important part of any team that I work on is the relationships that I have with the people that I work with. Code can be rebuilt and refactored as needed; but relationships and trust are invaluable, both with coworkers and clients. Besides the logistics of it, I really believe that better code comes from better relationships between coworkers. While I do use AI for help when coding and designing, I am of the opinion that trying to do something without AI help first is a better strategy. First, because coming to rely on AI is a dangerous precedent; second, because I feel like I learn more when I try to do something myself that I don't know how to do; and third, because I believe in the human factor behind and within the technology.</p>
 					<p>Most of my more specific philosophies regarding coding are developed from Joel Spoelsky, and other software-writers, who I read a lot of at my first SE job when I felt like I was floundering. However, regarding specific coding policies and architecture decisions, I am always open to new ideas and methods, and think it's best to make decisions with a team, rather than always flying solo. As a driven, independent worker, I find the challenge of working interdependently a meaningful and fulfilling one.</p>
 					<p>Most of my business philosophies actually come from my background as an entrepreneur, as well as my backgrounds in Psychology and English Literature studies. Honesty and integrity are the most important principles, both for me personally, and as a way of building trust with clients and coworkers. Part of "Design and engineer that which you want to use" is building products that are technically robust, but also building products that are enjoybale to use, and helpful for the user.</p>
-				</div>
-
-				<hr />
-
-				<div className='w-full text-left'>
-					<h3>...this website</h3>
-
-					<h3 className='w-fit'>Built using React + Typescript + Vite + Tailwind</h3>
-
-				</div>
-
-				<hr />
-				<div className='w-full text-left'>
-					<h3>...my other projects</h3>
-
-					<h3 className='w-fit'>See <Link href="/projects">projects</Link> for more info</h3>
-
 				</div>
 			</div>
 		</>

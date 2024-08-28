@@ -1,4 +1,4 @@
-import { Link } from 'wouter';
+import { Link } from 'react-router-dom';
 import linkedinLogo from '../assets/LI-In-Bug.png';
 import githubLogo from '../assets/github-mark-white.png';
 
@@ -8,13 +8,13 @@ export default function Header() {
 		<>
 			<div className='flex justify-between w-full max-w-[1280px]'>
 				<div className='flex'>
-					<Link href='/'>
+					<Link to='/'>
 						<button>Home</button>
 					</Link>
-					<Link href='/projects'>
+					<Link to='/projects'>
 						<button>Projects</button>
 					</Link>
-					<Link href='/about'>
+					<Link to='/about'>
 						<button>About</button>
 					</Link>
 				</div>
