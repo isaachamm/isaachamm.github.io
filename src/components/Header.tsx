@@ -7,7 +7,7 @@ export default function Header() {
 	return (
 		<>
 			<div className='flex justify-between w-full max-w-[1280px]'>
-				<div className='flex'>
+				<div>
 					<Link to='/'>
 						<button>Home</button>
 					</Link>

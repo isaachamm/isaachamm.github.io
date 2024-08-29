@@ -7,20 +7,19 @@ import mssqlLogo from '../assets/mssql-server.svg';
 import cSharpLogo from '../assets/c-sharp-logo.svg';
 import tsLogo from '../assets/ts-logo-128.svg';
 import nodeLogo from '../assets/nodejs-logo.svg'
-import './Home.css';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
 
 	return (
 		<>
-			<div className='flex w-[75%] mx-auto justify-around content-center'>
+			<div className='flex md:w-[75%] w-full flex-wrap mx-auto justify-around content-center'>
 
 				<img src={selfPortrait} alt="Self Portrait"
-					width={500}
-					height={500}
+					className=' max-w-lg w-full h-auto block'
 				/>
 
-				<div className='flex flex-col justify-center align-middle'>
+				<div className=' ml-4 flex flex-col justify-center align-middle'>
 					<h1>Isaac Hamm</h1>
 					<h2>Software Engineer</h2>
 					<h3>Tennis player / coach</h3>
@@ -35,16 +34,22 @@ export default function Home() {
 			<hr />
 
 			<div>
-				<button>Learn more about me</button>
-				<button>Learn more about this website</button>
-				<button>Learn more about my other websites</button>
+				<Link to="/about">
+					<button>Learn more about me</button>
+				</Link>
+				<a href="https://github.com/isaachamm/isaachamm.github.io">
+					<button>Learn more about this website</button>
+				</a>
+				<Link to="/projects">
+					<button>Learn more about my other websites</button>
+				</Link>
 			</div>
 
 			<hr />
 
 
-			<div className='w-[75%] grid grid-cols-3'>
-				<div className=' border-white border-2 rounded-3xl m-8 flex flex-col justify-center'>
+			<div className='md:w-[75%] w-full grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+				<div className=' border-white border-2 rounded-3xl m-8 p-4 flex flex-col justify-center'>
 					<h1>Frontend</h1>
 					<h2>Specialties:</h2>
 					<div className='flex justify-center align-middle'>
