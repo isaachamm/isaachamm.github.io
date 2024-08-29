@@ -19,7 +19,7 @@ export default function Header() {
 					</Link>
 				</div>
 
-				<div className='flex mr-4'>
+				<div className='flex mr-4 items-center'>
 					<a href="https://www.linkedin.com/in/isaachamm/" target="_blank">
 						<img src={linkedinLogo} className="logo" alt="Linkedin logo" />
 					</a>

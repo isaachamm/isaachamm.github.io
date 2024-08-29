@@ -52,7 +52,7 @@ export default function Home() {
 				<div className=' border-white border-2 rounded-3xl m-8 p-4 flex flex-col justify-center'>
 					<h1>Frontend</h1>
 					<h2>Specialties:</h2>
-					<div className='flex justify-center align-middle'>
+					<div className='flex justify-center items-center align-middle'>
 
 						<a href="https://vitejs.dev" target="_blank">
 							<img src={viteLogo} className="logo" alt="Vite logo" />
@@ -79,7 +79,7 @@ export default function Home() {
 					<h1>Backend</h1>
 
 					<h2>Specialties:</h2>
-					<div className='flex justify-center align-middle'>
+					<div className='flex justify-center items-center align-middle'>
 
 						<a href="https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/" target="_blank">
 							<img src={cSharpLogo} className="logo" alt="C Sharp logo" />
@@ -99,7 +99,7 @@ export default function Home() {
 					<h1>DB</h1>
 
 					<h2>Specialties:</h2>
-					<div className='flex justify-center align-middle'>
+					<div className='flex justify-center items-center align-middle'>
 
 						<a href="https://www.microsoft.com/en-us/sql-server/sql-server-downloads" target="_blank">
 							<img src={mssqlLogo} className="logo" alt="MSSQL logo" />
