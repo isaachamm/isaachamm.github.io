@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import personalLogo from '/IH_Logo.png';
+// import personalLogo from '/IH_Logo.png';
 import linkedinLogo from '../assets/LI-In-Bug.png';
 import githubLogo from '../assets/github-mark-white.png';
 
