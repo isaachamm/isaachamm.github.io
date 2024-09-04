@@ -1,5 +1,5 @@
 import reactLogo from '../assets/react.svg';
-import viteLogo from '/vite.svg';
+import viteLogo from '../assets/vite.svg';
 import selfPortrait from '../assets/self.jpeg';
 import firebaseLogo from '../assets/firebase.png';
 import pythonLogo from '../assets/python-logo.svg';

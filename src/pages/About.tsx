@@ -6,7 +6,7 @@ export default function About() {
 		<>
 
 			<h1 className='w-fit'>About Me</h1>
-			<div className='sm:w-[70%] sm:max-w-full max-w-xs w-full text-left px-4'>
+			<div className='sm:w-[70%] sm:max-w-full max-w-xs w-full text-left px-1'>
 
 				<br />
 				<div className='w-full text-left items-center sm:block flex flex-col'>
