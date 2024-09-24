@@ -22,6 +22,8 @@ export default function About() {
 
 				<hr />
 
+				{/* 
+				***Improve this before re-publishing
 				<div className='w-full text-left'>
 
 					<h2 className='w-fit my-4'>Coding Philosophy</h2>
@@ -30,7 +32,7 @@ export default function About() {
 					<p>I believe strongly that our greatest strength as coders is actually other humans—perhaps a blasphemy in the age of AI—nevertheless, I believe that the most important part of any team that I work on is the relationships that I have with the people that I work with. Code can be rebuilt and refactored as needed; but relationships and trust are invaluable, both with coworkers and clients. Besides the logistics of it, I really believe that better code comes from better relationships between coworkers. While I do use AI for help when coding and designing, I am of the opinion that trying to do something without AI help first is a better strategy. First, because coming to rely on AI is a dangerous precedent; second, because I feel like I learn more when I try to do something myself that I don't know how to do; and third, because I believe in the human factor behind and within the technology.</p>
 					<p>Most of my more specific philosophies regarding coding are developed from Joel Spoelsky, and other software-writers, who I read a lot of at my first SE job when I felt like I was floundering. However, regarding specific coding policies and architecture decisions, I am always open to new ideas and methods, and think it's best to make decisions as a unified team, rather than always flying solo. As a driven, independent worker, I find the challenge of working interdependently a meaningful and fulfilling one.</p>
 					<p>Combine that with crucials like honesty, integrity, and a never-ending love for learning, and I believe that we can make some great software together.</p>
-				</div>
+				</div> */}
 			</div>
 		</>
 	)

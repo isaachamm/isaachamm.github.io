@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-// import personalLogo from '/IH_Logo.png';
+import personalLogo from '../assets/IH_Logo_Inverted_Blank.png';
 import linkedinLogo from '../assets/LI-In-Bug.png';
 import githubLogo from '../assets/github-mark-white.png';
 
@@ -10,8 +10,7 @@ export default function Header() {
 			<div className='flex justify-between w-full max-w-[1280px]'>
 				<div className='flex'>
 					<Link to='/'>
-						{/* <img src={personalLogo} className="logo" alt="Linkedin logo" /> */}
-						<button>Home</button>
+						<img src={personalLogo} className="logo" alt="Linkedin logo" />
 					</Link>
 					<Link to='/projects'>
 						<button>Projects</button>
