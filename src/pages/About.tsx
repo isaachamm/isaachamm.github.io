@@ -20,9 +20,9 @@ export default function About() {
 				<p>Thanks for visiting my site, hope you enjoy 🤙</p>
 				<br />
 
+				{/* 
 				<hr />
 
-				{/* 
 				***Improve this before re-publishing
 				<div className='w-full text-left'>
 

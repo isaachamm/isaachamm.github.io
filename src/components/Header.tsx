@@ -7,8 +7,7 @@ export default function Header() {
 
 	return (
 		<>
-			<div className='flex justify-between w-full max-w-[1280px]'>
-				<div className='flex'>
+			<div className='flex justify-between w-full items-center mx-4 max-w-[800px]'>
 					<Link to='/'>
 						<img src={personalLogo} className="logo" alt="Linkedin logo" />
 					</Link>
@@ -18,16 +17,12 @@ export default function Header() {
 					<Link to='/about'>
 						<button>About</button>
 					</Link>
-				</div>
-
-				<div className='flex mr-4 items-center'>
 					<a href="https://www.linkedin.com/in/isaachamm/" target="_blank">
 						<img src={linkedinLogo} className="logo" alt="Linkedin logo" />
 					</a>
 					<a href="https://github.com/isaachamm" target="_blank">
 						<img src={githubLogo} className="logo" alt="Github logo" />
 					</a>
-				</div>
 			</div>
 
 			<hr />
