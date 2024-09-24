@@ -17,6 +17,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.markdown * {
+  all: revert;
+}
+
 a {
   font-weight: 500;
   color: #646cff;

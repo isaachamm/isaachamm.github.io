@@ -13,20 +13,18 @@ export default function Home() {
 
 	return (
 		<>
-			<div className='flex md:w-[75%] w-full flex-wrap mx-auto justify-around content-center'>
+			<div className='flex md:w-[75%] md:max-w-[1000px] w-full flex-wrap mx-auto justify-around content-center'>
 
 				<img src={selfPortrait} alt="Self Portrait"
 					className=' max-w-lg w-full h-auto block'
 				/>
 
-				<div className=' ml-4 flex flex-col justify-center align-middle'>
-					<h1>Isaac Hamm</h1>
-					<h2>Software Engineer</h2>
-					<h3>Tennis player / coach</h3>
-					<h3>Writer</h3>
-					<h3>Cinema Junkie</h3>
-					<h3>Bookworm</h3>
-					<h3>Human</h3>
+				<div className=' max-w-sm flex flex-col justify-center text-start'>
+					<h1>Hi there</h1>
+					<br />
+					<p>My name's Isaac. I'm the architect, designer, and implementer of everything you see here, and I'm stoked that you've taken the time to visit my site.</p>
+					<p>Take a look at my specialties and interests below, or swing by the projects page to see what I'm currently working on.</p>
+					<p>If you have any suggestions for anything that I'm working on, or just want to have a fun discussion about software, writing, or life, feel free to drop me a message via my LinkedIn or Github accounts.</p>
 
 				</div>
 			</div>
@@ -41,7 +39,7 @@ export default function Home() {
 					<button>Learn more about this website</button>
 				</a>
 				<Link to="/projects">
-					<button>Learn more about my other websites</button>
+					<button>Learn more about my other projects</button>
 				</Link>
 			</div>
 
