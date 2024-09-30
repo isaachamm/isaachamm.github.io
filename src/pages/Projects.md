@@ -1,6 +1,6 @@
 ## The Cinnamon Game - React + TS Web App
 
-<img src="/assets/cinnamon-screenshot.jpg" style="width:30em; height:auto;" alt="Cinnamon Game Image" title="Cinnamon Game Image" />
+<img src="/cinnamon-screenshot.jpg" style="width:30em; height:auto;" alt="Cinnamon Game Image" title="Cinnamon Game Image" />
 
 >**Description:** A NY-Times style game that involves guessing words and synonyms based on definitions\
 >**Status:** MVP completed: functional, but has room for a lot of improvements/features\
@@ -35,7 +35,7 @@
 ---
 
 ## Better Conversations:
-<img src="/assets/bc-figma.jpg" style="width:30em; height:auto;" alt="Better Conversations Figma Image" title="Better Conversations Figma Image" />
+<img src="/bc-figma.jpg" style="width:30em; height:auto;" alt="Better Conversations Figma Image" title="Better Conversations Figma Image" />
 
 >**Description:** An app that gives you thought-provoking questions to ask people\
 >**Status:** Designing using Figma\
