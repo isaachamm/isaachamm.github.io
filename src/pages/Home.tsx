@@ -69,7 +69,7 @@ export default function Home() {
 					<p>Vite + React + Typescript + Node</p>
 					<h2>Experience with:</h2>
 					<p>Angular, Next, Vue, Astro, Bun</p>
-					<h2>Want to learn:</h2>
+					<h2>Learning Now:</h2>
 					<p>Svelte, Ember, Ruby on Rails</p>
 				</div>
 
@@ -89,12 +89,12 @@ export default function Home() {
 					<p>.NET (C#) + Python</p>
 					<h2>Experience with:</h2>
 					<p>Java, C++, Flask, Express</p>
-					<h2>Want to learn:</h2>
+					<h2>Learning Now:</h2>
 					<p>Rust, Ruby</p>
 				</div>
 
 				<div className=' border-white border-2 rounded-3xl m-8 flex flex-col justify-center'>
-					<h1>DB</h1>
+					<h1>Database</h1>
 
 					<h2>Specialties:</h2>
 					<div className='flex justify-center items-center align-middle'>
@@ -109,7 +109,7 @@ export default function Home() {
 					<p>MSSQL + Firebase</p>
 					<h2>Experience with:</h2>
 					<p>MongoDB, GraphQL, Apollo</p>
-					<h2>Want to learn:</h2>
+					<h2>Learning Now:</h2>
 					<p>PostgreSQL, Neo4j</p>
 				</div>
 
@@ -126,7 +126,7 @@ export default function Home() {
 				</div>
 
 				<div className=' border-white border-2 rounded-3xl m-8 flex flex-col justify-center'>
-					<h2>PM</h2>
+					<h2>Project Mgt.</h2>
 
 					<p>Scrum, Theory of Constraints</p>
 				</div>
