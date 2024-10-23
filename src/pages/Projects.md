@@ -34,6 +34,37 @@
 
 ---
 
+## Healthy Gaming Trackmania Plugin:
+<img src="" style="width:30em; height:auto;" alt="Placeholder Image" title="Placeholder Image" />
+
+>**Description:** A plugin for the Nadeo game Trackmania 2020 that allows a player to set a time limit, or other limits such as no. of respawns (others TBD)\
+>**URL:** [Empty Link]()\
+>**Github:** [Control Yourself Plugin](https://github.com/isaachamm/control-yourself-tm-plugin)\
+>**Technologies Used:**
+>- AngelScript / C++
+>- OpenPlanet API
+
+<details>
+<summary><strong>Additional details</strong></summary>
+
+>**Status:** In Development\
+>**Next Task:** Store respawn number/timer across different maps\
+>**Task List:**
+
+>- [ ] Store respawn number/timer across different maps
+>- [ ] Display total respawn number/timer on screen
+>- [ ] Allow user to determine total number of respawns/total time before a message appears
+>- [ ] Encourage users to take a break every so often? (i.e., every 45 minutes, display a message that says "go touch grass")
+
+
+>**Interesting Notes:**
+
+>* I am a Top 100 Trackmania player in Utah
+>* I stream on Twitch as a Trackmania player. Max no. of viewers I've achieved for a single stream: 157
+</details>
+
+---
+
 ## Better Conversations:
 <img src="/bc-figma.jpg" style="width:30em; height:auto;" alt="Better Conversations Figma Image" title="Better Conversations Figma Image" />
 
@@ -62,10 +93,10 @@
 
 ---
 
-## Animated Git tutorial:
+## Film Site:
 
->**Description:** Use Disney animations to make a free tuturial on how to use Git\
->**Status:** Ideating\
+>**Description:** A photo display for film pictures, and a film photography tutorial/playground\
+>**Status:** Looking into CSS solutions for toying with images' brightness and blur, but need more specific film pictures to be able to play with things like aperture and depth of field.\
 >**URL:** [Empty Link]()\
 >**Github:** [Empty Link]()\
 >**Technologies Used:**
@@ -89,10 +120,10 @@
 
 ---
 
-## Film Site:
+## Animated Git tutorial:
 
->**Description:** A photo display for film pictures, and a film photography tutorial/playground\
->**Status:** Ideating\
+>**Description:** Use Disney/anime animations to make a free tuturial on how to use Git\
+>**Status:** On the backburner for now because of Copyright issues. Would have to create our own animations and/or music.\
 >**URL:** [Empty Link]()\
 >**Github:** [Empty Link]()\
 >**Technologies Used:**
