@@ -1,5 +1,36 @@
 ## The Cinnamon Game - React + TS Web App
 
+<img src="" style="width:30em; height:auto;" alt="Placeholder Image" title="Placeholder Image" />
+
+>**Description:** A Golang RESTful HTTP server that acts as an API for using Google Sheets as a DB for quick iterations.\
+>**URL:** [Empty Link]()\
+>**Github:** [Google Sheets API](https://github.com/isaachamm/google-sheets-api)\
+>**Technologies Used:**
+>- Golang
+>- Google Sheets API
+
+<details>
+<summary><strong>Additional details</strong></summary>
+
+>**Status:** In Development\
+>**Next Task:** Make Creation of sheets compare against existing (i.e., no duplicate sheet names)\
+>**Task List:**
+
+>- [ ] Make Creation of sheets compare against existing (i.e., no duplicate sheet names)
+>- [ ] Be able to write data to sheets
+>- [ ] Be able to update data on sheets
+>- [ ] Be able to delete data on sheets
+>- [ ] Be able to read data from sheets
+
+
+>**Interesting Notes:**
+
+<!-- >* Point 1
+>* Point 2 -->
+</details>
+
+---
+
 <img src="/cinnamon-screenshot.jpg" style="width:30em; height:auto;" alt="Cinnamon Game Image" title="Cinnamon Game Image" />
 
 >**Description:** A NY-Times style game that involves guessing words and synonyms based on definitions\
@@ -34,12 +65,12 @@
 
 ---
 
-## Healthy Gaming Trackmania Plugin:
+## Session Stats Trackmania Plugin:
 <img src="" style="width:30em; height:auto;" alt="Placeholder Image" title="Placeholder Image" />
 
->**Description:** A plugin for the Nadeo game Trackmania 2020 that allows a player to set a time limit, or other limits such as no. of respawns (others TBD)\
+>**Description:** A plugin for the Nadeo game Trackmania 2020 that allows a player to set a time limit, or other limits such as no. of respawns, while also offering statistics on specific sessions for playing\
 >**URL:** [Empty Link]()\
->**Github:** [Control Yourself Plugin](https://github.com/isaachamm/control-yourself-tm-plugin)\
+>**Github:** [Session Stats Plugin](https://github.com/isaachamm/control-yourself-tm-plugin)\
 >**Technologies Used:**
 >- AngelScript / C++
 >- OpenPlanet API
@@ -47,19 +78,19 @@
 <details>
 <summary><strong>Additional details</strong></summary>
 
->**Status:** In Development\
->**Next Task:** Store respawn number/timer across different maps\
+>**Status:** V1 completed, but not launched\
+>**Next Task:** Submit an application to OpenPlanet\
 >**Task List:**
 
->- [ ] Store respawn number/timer across different maps
->- [ ] Display total respawn number/timer on screen
->- [ ] Allow user to determine total number of respawns/total time before a message appears
+>- [x] Store respawn number/timer across different maps
+>- [x] Display total respawn number/timer on screen
+>- [x] Allow user to determine total number of respawns/total time before a message appears
 >- [ ] Encourage users to take a break every so often? (i.e., every 45 minutes, display a message that says "go touch grass")
 
 
 >**Interesting Notes:**
 
->* I am a Top 100 Trackmania player in Utah
+>* I am a Top 50 Trackmania player in Utah
 >* I stream on Twitch as a Trackmania player. Max no. of viewers I've achieved for a single stream: 157
 </details>
 
