@@ -1,6 +1,60 @@
-## The Cinnamon Game - React + TS Web App
+## Personal website (this site)
+<img src="/personal-website-screenshot.png" style="width:30em; height:auto;" alt="IH website image" title="IH website image" />
 
-<img src="" style="width:30em; height:auto;" alt="Placeholder Image" title="Placeholder Image" />
+>**Description:** Personal website & dev portfolio\
+>**URL:** [Home Page](https://isaachamm.github.io/#/)\
+>**Github:** [Personal Website Github](https://github.com/isaachamm/isaachamm.github.io)\
+>**Technologies Used:**
+>- React + Typescript using Vite
+>- Tailwind CSS
+
+<details>
+<summary><strong>Additional details</strong></summary>
+
+>**Status:** Live\
+>**Next Task:** Make projects page updatable without having to make a git commit\
+>**Task List:**
+
+>- [ ] Make projects page updatable without having to make a git commit
+
+</details>
+
+---
+
+## Filmy
+<img src="/public/filmy-screenshot.png" style="width:30em; height:auto;" alt="Filmy Website Screenshot" title="Filmy Website Screenshot" />
+
+
+>**Description:** A website to assist with film photography journaling\
+>**URL:** [Empty Link]()\
+>**Github:** [Filmy Github](https://github.com/isaachamm/filmy)\
+>**Technologies Used:**
+>- Angular
+
+<details>
+<summary><strong>Additional details</strong></summary>
+
+>**Status:** In Development\
+>**Next Task:** Finalize data fields and create an "add" button that displays input details\
+>**Task List:**
+
+>- [ ] Finalize data fields and create an "add" button that displays input details
+>- [ ] Create a read data component
+>- [ ] Make component data editable
+>- [ ] Make an API/DB for staring data permanently
+>- [ ] Mkae a user system so that users can store data separately
+
+>**Interesting Notes:**
+
+>* I've been working on film photography for ~5 years
+>* I've taken and developed over 100 film photographs
+</details>
+
+---
+
+## Golang Google Sheets DB
+
+<img src="/public/google-sheets-api-insomnia-screenshot.png" style="width:30em; height:auto;" alt="Google Sheets API Insomnia Screenshot" title="Google Sheets API Insomnia Screenshot" />
 
 >**Description:** A Golang RESTful HTTP server that acts as an API for using Google Sheets as a DB for quick iterations.\
 >**URL:** [Empty Link]()\
@@ -31,6 +85,8 @@
 
 ---
 
+## The Cinnamon Game
+
 <img src="/cinnamon-screenshot.jpg" style="width:30em; height:auto;" alt="Cinnamon Game Image" title="Cinnamon Game Image" />
 
 >**Description:** A NY-Times style game that involves guessing words and synonyms based on definitions\
@@ -47,6 +103,8 @@
 >**Next Task:** Share with friends\
 >**Task List:**
 
+>- [ ] Fix bug where the reveal doesn't reset when you choose a new date to play
+>- [ ] Make it possible to choose a random day to play (like XKCD random comic picker)
 >- [ ] Make it possible for people to share with friends (need to create a scoring system in this case too)
 >- [x] Make it possible to choose other dates and play the Cinnamon from that date
 >- [ ] Include more data to handle multiple meanings/definitions. OR choose one to roll with. 
@@ -65,8 +123,8 @@
 
 ---
 
-## Session Stats Trackmania Plugin:
-<img src="" style="width:30em; height:auto;" alt="Placeholder Image" title="Placeholder Image" />
+## Session Stats Trackmania Plugin
+<img src="/public/session-stats.jpg" style="width:30em; height:auto;" alt="Placeholder Image" title="Placeholder Image" />
 
 >**Description:** A plugin for the Nadeo game Trackmania 2020 that allows a player to set a time limit, or other limits such as no. of respawns, while also offering statistics on specific sessions for playing\
 >**URL:** [Empty Link]()\
@@ -96,7 +154,7 @@
 
 ---
 
-## Better Conversations:
+## Better Conversations
 <img src="/bc-figma.jpg" style="width:30em; height:auto;" alt="Better Conversations Figma Image" title="Better Conversations Figma Image" />
 
 >**Description:** An app that gives you thought-provoking questions to ask people\
@@ -124,7 +182,7 @@
 
 ---
 
-## Film Site:
+## Film Photography Learning Site
 
 >**Description:** A photo display for film pictures, and a film photography tutorial/playground\
 >**Status:** Looking into CSS solutions for toying with images' brightness and blur, but need more specific film pictures to be able to play with things like aperture and depth of field.\
@@ -151,7 +209,7 @@
 
 ---
 
-## Animated Git tutorial:
+## Animated Git tutorial
 
 >**Description:** Use Disney/anime animations to make a free tuturial on how to use Git\
 >**Status:** On the backburner for now because of Copyright issues. Would have to create our own animations and/or music.\
@@ -178,7 +236,7 @@
 
 ---
 
-## Project template:
+## Project template
 <img src="" style="width:30em; height:auto;" alt="Placeholder Image" title="Placeholder Image" />
 
 >**Description:** Summary\
