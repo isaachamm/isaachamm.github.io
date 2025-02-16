@@ -22,7 +22,7 @@
 ---
 
 ## Filmy
-<img src="/public/filmy-screenshot.png" style="width:30em; height:auto;" alt="Filmy Website Screenshot" title="Filmy Website Screenshot" />
+<img src="/filmy-screenshot.png" style="width:30em; height:auto;" alt="Filmy Website Screenshot" title="Filmy Website Screenshot" />
 
 
 >**Description:** A website to assist with film photography journaling\
@@ -54,7 +54,7 @@
 
 ## Golang Google Sheets DB
 
-<img src="/public/google-sheets-api-insomnia-screenshot.png" style="width:30em; height:auto;" alt="Google Sheets API Insomnia Screenshot" title="Google Sheets API Insomnia Screenshot" />
+<img src="/google-sheets-api-insomnia-screenshot.png" style="width:30em; height:auto;" alt="Google Sheets API Insomnia Screenshot" title="Google Sheets API Insomnia Screenshot" />
 
 >**Description:** A Golang RESTful HTTP server that acts as an API for using Google Sheets as a DB for quick iterations.\
 >**URL:** [Empty Link]()\
@@ -124,7 +124,7 @@
 ---
 
 ## Session Stats Trackmania Plugin
-<img src="/public/session-stats.jpg" style="width:30em; height:auto;" alt="Placeholder Image" title="Placeholder Image" />
+<img src="/session-stats.jpg" style="width:30em; height:auto;" alt="Placeholder Image" title="Placeholder Image" />
 
 >**Description:** A plugin for the Nadeo game Trackmania 2020 that allows a player to set a time limit, or other limits such as no. of respawns, while also offering statistics on specific sessions for playing\
 >**URL:** [Empty Link]()\
